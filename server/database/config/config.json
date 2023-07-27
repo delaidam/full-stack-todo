@@ -1,0 +1,15 @@
+{
+  "development": {
+    "url": "postgresql://delaida:delaida@localhost:5432/todo",
+    "dialect": "postgres"
+  },
+  "test": {
+    "url": "postgresql://delaida:delaida@localhost:5432/todo_test",
+    "dialect": "postgres"
+  },
+  "production": {
+    "url": "postgresql://delaida:delaida@localhost:5432/todo",
+    "dialect": "postgres"
+  }
+}
+
